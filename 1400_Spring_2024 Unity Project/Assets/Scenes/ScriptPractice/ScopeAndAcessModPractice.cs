@@ -30,7 +30,7 @@ public class ScopeAndAcessModPractice : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
+    void Update()//every frame this is setting alpha to 29 (acting like an infinte loop)
     {//everything between the brackets can be said to be a block or code blocks
         Debug.Log("Alpha is set to: " +  alpha);
     }
